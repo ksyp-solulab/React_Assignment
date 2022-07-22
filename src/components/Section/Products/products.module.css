@@ -1,0 +1,46 @@
+.advertise{
+    padding-bottom: 45px;
+}
+
+.advertise img{
+    width: 100%;
+}
+
+.pagination{
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding-left: 15px;
+}
+
+.pagination button{
+    margin: 0 15px;
+    padding: 5px;
+    width: 30px;
+    border: none;
+}
+
+.pagination button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.pagination .active,
+.pagination .active a{
+    background-color: #FE980F;
+    color: #FFFFFF;
+    cursor: default;
+    z-index: 2;
+}
+.pagination button a{
+    background-color: #f0f0e9;
+    text-decoration: none;
+    color: #000;
+}
+.pagination button:hover,
+.pagination>button>a:hover{
+    background-color: #FE980F;
+    color: #FFFFFF;
+    cursor: default;
+    z-index: 2;
+}

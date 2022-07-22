@@ -1,0 +1,16 @@
+.footorBottom{
+    background: #D6D6D0;
+    padding-top: 10px;
+}
+
+.footorBottom p{
+    color: #363432;
+    font-weight: 300;
+
+}
+
+.footorBottom p span a{
+    color: #FE980F;
+    font-style: italic;
+    text-decoration: underline;
+}

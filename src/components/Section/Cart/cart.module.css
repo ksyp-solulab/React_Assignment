@@ -1,0 +1,122 @@
+.cartItems .cartInfo {
+    border: 1px solid #E6E4DF;
+    margin-bottom: 50px
+
+}
+.cartItems .cartInfo .cartMenu{
+    background: #FE980F;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+
+}
+
+thead tr{
+    height: 51px;
+    border-bottom: 0;
+}
+
+tr:last-child{
+    border-bottom: 0;
+}
+tr{
+    border-bottom: 0;
+}
+
+.cartItems .cartInfo .image {
+    padding-left: 30px;
+}
+
+.doActions{
+    margin-bottom: 50px;
+}
+.doActions .totalArea{
+    padding-bottom: 18px !important;
+}
+.doActions .totalArea,
+.doActions .chooseArea{
+    border: 1px solid #E6E4DF;
+    color: #696763;
+    padding: 30px 25px 30px 0;
+    margin-bottom: 80px;
+}
+
+.totalArea span{
+    float: right;
+}
+.totalArea ul{
+    list-style: none;
+}
+
+.totalArea ul li{
+    background: #E6E4DF;
+    color: #696763;
+    margin-top: 10px;
+    padding: 7px 20px;
+}
+
+.update{
+    margin-left: 40px;
+}
+
+.doActions button{
+    padding: 10px;
+color: #FFF;
+background: #FE980F;
+border: none;
+margin-right: 25px;
+}
+
+.userOption label{
+    color: #696763;
+    font-weight: normal;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.userOption{
+    list-style: none;
+}
+
+.userInfo{
+    list-style: none;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.userInfo label{
+    color: #696763;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.userInfo .singleField{
+    width: 31%
+}
+
+.userInfo>li{
+    float: left;
+    margin-right: 10px
+}
+
+.userInfo input,select,textarea{
+    background: #F0F0E9;
+    border: 0;
+    color: #696763;
+    padding: 5px;
+    width: 100%;
+    border-radius: 0;
+    resize: none
+}
+
+.userInfo select:focus{
+    border: 0;
+}
+
+table hr{
+    border-bottom: 1px solid #E6E4DF;
+}

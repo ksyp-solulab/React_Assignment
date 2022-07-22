@@ -1,0 +1,20 @@
+.header_top{
+    background: none repeat scroll 0 0 #F0F0E9;
+    color: #696763;
+}
+.header_top a{
+    color: black;
+    text-decoration: none;
+}
+
+.header_top li{
+    margin: 0px 15px;
+}
+
+.soical ul{
+    justify-content: end;
+}
+
+.soical {
+    padding: 10px 0px;
+}

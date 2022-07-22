@@ -1,0 +1,52 @@
+.item img .girl{
+    display: inline-block;
+    margin-left: 15px;
+}
+.item{
+    padding-left: 100px;
+}
+
+.item h1{
+    color: #B4B1AB;
+    font-family: abel;
+    font-size: 48px;
+    margin-top: 115px;
+}
+
+.item h1 span{
+    color: #FE980F;
+}
+
+.item h2{
+    color: #363432;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    margin-bottom: 22px;
+    margin-top: 10px;
+}
+.item p{
+    color: #363432;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item button:hover{
+    background: #FE980F;
+}
+
+.girl {
+    margin-left: 0;
+}
+.pricing {
+    position: absolute;
+    right: 22%;
+    top: 52%;
+} 
+
+.item button {
+    color: #FFF;
+    background-color: #FE980F;
+    border: none;
+}

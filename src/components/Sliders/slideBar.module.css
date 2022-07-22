@@ -1,0 +1,13 @@
+.carousel-indicators button {
+    width: 0.4rem !important;
+    height: 0.4rem !important;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators button:not(:first-child) {
+    margin-left: 0.5rem;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #ff7a54;
+  }

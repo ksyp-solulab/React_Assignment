@@ -1,0 +1,36 @@
+.breadcrumbs{
+    position: relative;
+}
+
+.breadcrumbs .breadcrumb{
+    background: transparent;
+    margin-bottom: 75px;
+    padding-left: 0;
+}
+
+.breadcrumb ul{
+    list-style: none;
+}
+
+.breadcrumbs .breadcrumb li a{
+    text-decoration: none;
+    background: #FE980F;
+    color: #FFFFFF;
+    padding: 3px 7px;
+}
+
+.breadcrumbs .breadcrumb li a::after{
+    content: "";
+    height: auto;
+    width: auto;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent #FE980F;
+    position: absolute;
+    top: 11px;
+    left: 48px;
+}
+
+.breadcrumbs .breadcrumb li a::before{
+    content: " ";
+}

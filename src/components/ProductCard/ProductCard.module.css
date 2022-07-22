@@ -1,0 +1,127 @@
+.productImgWrapper {
+    border: 1px solid #F7F7F5;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.singleProducts{
+    position: relative;
+}
+
+.productInfo{
+    position: relative !important;
+    text-align: center;
+}
+
+.productInfo p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #696763;
+}
+
+.productInfo img{
+    width: 100%;
+}
+
+.productInfo h2{
+    color: #FE980F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+}
+
+.addToCart{
+    background: #F5F5ED;
+    border: none !important;
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+.addToCart:hover{
+    background: #FE980F;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+}
+.productOverlay h2{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+}
+
+.productOverlay .addToCart{
+    background: #fff;
+    border: 0 none;
+    border-radius: 0;
+    color: #FE980F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.singleProducts:hover .productOverlay{
+    display: block;
+    height: 100%;
+}
+.addToCart:hover{
+    background: #FE980F;
+    color: #FFFFFF;
+}
+
+.productOverlay .addToCart:hover{
+    background: #fff;
+    color: #FE980F;
+}
+
+.productOverlay p{
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 400;
+color: #fff;
+}
+.productOverlay{
+    background: rgba(254, 152, 15, .8);
+    top: 0;
+    display: none;
+    height: 0;
+    position: absolute;
+    -webkit-transition: height 500ms ease 0s;
+    transition: height 500ms ease 0s;
+    width: 100%;
+    display: block;
+}
+
+.singleProducts:hover .productOverlay{
+    display: block;
+    height: 100%;
+}
+
+.productOverlay .overlayContent{
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.choose{
+    border-top: 1px solid #F7F7F0;
+}
+
+.btn{
+    color: #B3AFA8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    
+}
+.btn:hover {
+    padding: 5px;
+    background: none;
+    color: #FE980F;
+}
+.choose{
+    display: flex;
+    justify-content: center;
+}

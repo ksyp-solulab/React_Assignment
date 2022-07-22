@@ -1,0 +1,153 @@
+.blogPostArea{
+    display: block;
+}
+.pagerArea{
+    overflow: hidden; 
+    width: 100%;  
+}
+.pagerArea>button{
+    margin-right: 15px;
+    background: #F0F0E9;
+    border: 0 none;
+    border-radius: 0;
+    color: #696763;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px;
+    text-transform: uppercase;
+    width: 57px;
+}
+.pagerArea>button:hover{
+    background: #FE980F;
+    color: #fff
+}
+
+.ratingArea{
+    border: 1px solid #F7F7F0;
+    direction: block;
+    overflow: hidden;
+    display: block;
+    
+}
+.ratingArea ul{
+    list-style: none;
+}
+
+.ratingArea ul li{
+    float: left;
+    padding: 5px;
+    font-size: 12px;
+}
+.ratingArea ul li button{
+    border: none;
+    background-color: #fff;
+    color: #cccccc;
+}
+.ratingArea .rateThis{
+    color: #363432;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ratingArea .ratings .color,
+.ratingArea .color{
+    color: #FE980F
+}
+
+.ratingArea .tag{
+    float: right;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+.ratingArea .tag li{
+    padding: 5px 2px;
+}
+.ratingArea .tag li span{
+    color: #363432;
+}
+
+.socialShare{
+    margin-bottom: 30px;
+    margin-top: 18px;
+}
+
+.comments,.responceArea p,.replyBox p{
+    font-style: 12px;
+}
+
+.replyBox{
+    margin-bottom: 107px;
+    margin-top: 55px;
+}
+.replyBox h2{
+    font-weight: 700;
+    font-size: 20px;
+    color: #363432;
+    margin-top: 0;
+    margin-bottom: 45px
+}
+
+.replyBox label{
+    background: #FE980F;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    padding: 3px 15px;
+    float: left;
+    font-weight: 400;
+}
+
+.replyBox span{
+    color: #FE980F;
+    float: right;
+    font-weight: 700;
+    margin-top: 21px;
+}
+
+.replyBox form input{
+    border: 1px solid #F7F7F0;
+    color: #ADB2B2;
+    font-size: 12px;
+    margin-bottom: 22px;
+    padding: 8px;
+    width: 100%;
+}
+
+.replyBox form input:hover, .textArea textarea:hover{
+    border: 1px solid #FE980F;
+}
+
+.textArea{
+    margin-top: 66px
+}
+.textArea textarea{
+    background: #FFF;
+    border: 1px solid #F7F7F0;
+}
+.mediaList button, .comments button{
+    background: #FC9A11;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+    float: left;
+    font-size: 10px;
+    padding: 1px 7px;
+    text-transform: uppercase;
+}
+
+.comments .mediaObject{
+    margin-right: 15px;
+    width: 100%;
+}
+
+.blackArrow{
+    position: relative;
+}
+
+
+
+.textArea .btn {
+    border: none;
+    color: white;
+    background: #FE980F;
+}

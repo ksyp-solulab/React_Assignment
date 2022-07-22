@@ -1,0 +1,14 @@
+.videoGallary p{
+    margin-top: 10px;
+    color: #8C8C88;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.videoGallary h2{
+    margin-top: -15px;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}

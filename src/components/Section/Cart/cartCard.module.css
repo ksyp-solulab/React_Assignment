@@ -1,0 +1,31 @@
+.cartDescription h4 {
+    margin-bottom: 0;
+}
+
+.cartDescription h4 a {
+    color: #363432;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.cartDescription p {
+    color: #696763
+}
+
+.cartPeice {
+    color: #696763;
+    font-size: 25px;
+}
+
+.cartQuntity button {
+    background: #F0F0E9 !important;
+    color: #696763 !important;
+    border: none !important;
+    border-radius: 100% !important;
+}
+
+.cartTotal span{
+    font-size: 25px;
+}

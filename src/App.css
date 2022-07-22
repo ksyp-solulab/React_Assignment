@@ -1,0 +1,19 @@
+.App {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.btn:hover,
+.btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
