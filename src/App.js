@@ -13,7 +13,6 @@ import ProductDetail from "./components/Section/Products/ProductDetail";
 import NotFound404 from "./components/404 Not Found/NotFound404";
 import Contact from "./components/ContactUS/Contact";
 import ScrollToTop from "react-scroll-to-top";
-// import ScrollToTop from "./components/Scroll To Top/ScrollToTop";
 
 function App() {
   return (
