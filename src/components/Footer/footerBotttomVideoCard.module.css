@@ -7,8 +7,8 @@
 
 .videoGallary h2{
     margin-top: -15px;
-    font-size: 12px;
-    font-weight: 300;
+    font-size: 12px !important;
+    font-weight: 300 !important;
     text-transform: uppercase;
 
 }

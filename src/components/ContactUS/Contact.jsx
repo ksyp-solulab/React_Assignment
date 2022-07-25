@@ -8,12 +8,6 @@ import {
 } from "react-icons/fa";
 
 function Contact() {
-    useEffect(()=>{
-        const ifameData=document.getElementById("iframeId")
-        const lat=1.305385;
-        const lon=30.923029;
-        ifameData.src=`https://maps.google.com/maps?q=${lat},${lon}&hl=es;&output=embed`
-    })
   return (
     <div className="container">
       <div className="bg">
@@ -22,7 +16,7 @@ function Contact() {
             Contact <strong>Us</strong>
           </h2>
           <div>
-            <iframe id="iframeId" height="500px" width="100%"></iframe>
+            <iframe src='https://maps.google.com/maps?q=1.305385,30.923029&hl=es;&output=embed' height="500px" width="100%"></iframe>
         </div>
         </div>
         <div className="row">
