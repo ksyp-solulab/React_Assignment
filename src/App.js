@@ -31,7 +31,7 @@ function App() {
           <Route path="*" element={<NotFound404/>} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <ScrollToTop smooth  style={{background: '#FE980F'}}/>
+        <  smooth  style={{background: '#FE980F'}}/>
         <Footer />
       </Router>
     </div>

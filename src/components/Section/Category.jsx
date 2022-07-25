@@ -16,31 +16,31 @@ function Category() {
         
         <div>{
             data === "t" ? <div className="row">
-                            <CategoryProduct image={require('../../images/home/gallery1.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery2.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery3.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery1.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery2.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery3.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
                             </div> : data === "b" ? 
                             <div className="row">
-                            <CategoryProduct image={require('../../images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery3.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery1.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery3.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery1.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
                             </div> :data === "s" ? <div className="row">
-                            <CategoryProduct image={require('../../images/home/gallery3.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery1.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery2.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery3.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery1.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery2.jpg')} price="$56" description ="Easy Polo Black Edition" />
                             </div>: data === "k" ? <div className="row">
-                            <CategoryProduct image={require('../../images/home/gallery2.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery1.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery3.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery2.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery1.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery3.jpg')} price="$56" description ="Easy Polo Black Edition" />
                             </div> : <div className="row">
-                            <CategoryProduct image={require('../../images/home/gallery3.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery2.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
-                            <CategoryProduct image={require('../../images/home/gallery1.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery3.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery2.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery4.jpg')} price="$56" description ="Easy Polo Black Edition" />
+                            <CategoryProduct image={require('../../asset/images/home/gallery1.jpg')} price="$56" description ="Easy Polo Black Edition" />
                             </div>
             }
         </div>

@@ -24,29 +24,29 @@ function Footer() {
             </div>
             <div className="col-sm-7 text-center" style={{ display: "flex" }}>
               <FooterBottemVideoCard
-                img={require("./../../images/home/iframe1.png")}
+                img={require("./../../asset/images/home/iframe1.png")}
                 title="Circle of Hands"
                 date="24 DEC 2014"
               />
               <FooterBottemVideoCard
-                img={require("./../../images/home/iframe2.png")}
+                img={require("./../../asset/images/home/iframe2.png")}
                 title="Circle of Hands"
                 date="24 DEC 2014"
               />
               <FooterBottemVideoCard
-                img={require("./../../images/home/iframe3.png")}
+                img={require("./../../asset/images/home/iframe3.png")}
                 title="Circle of Hands"
                 date="24 DEC 2014"
               />
               <FooterBottemVideoCard
-                img={require("./../../images/home/iframe4.png")}
+                img={require("./../../asset/images/home/iframe4.png")}
                 title="Circle of Hands"
                 date="24 DEC 2014"
               />
             </div>
             <div className="col-sm-3">
               <div className={Style.address}>
-                <img src={require("./../../images/home/map.png")} alt="" />
+                <img src={require("./../../asset/images/home/map.png")} alt="" />
                 <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
               </div>
             </div>

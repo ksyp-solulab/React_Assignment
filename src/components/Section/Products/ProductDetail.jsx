@@ -16,38 +16,38 @@ import Category2 from "../Category2";
                 <div className={Style.productDetails + " "+ "row"}>                    
                     <div className="col-sm-5">
                         <div className={Style.viewProduct}>
-                            <img src={require('./../../../images/product-details/1.jpg')} alt="" />
+                            <img src={require('./../../../asset/images/product-details/1.jpg')} alt="" />
                             <h3>ZOOM</h3>
                         </div>
                         <div className={Style.similarProducts}>
                             <Carousel>
                                 <Carousel.Item>
-                                    <img src={require("./../../../images/product-details/similar1.jpg")} alt="" />
-                                    <img src={require("./../../../images/product-details/similar2.jpg")} alt="" />
-                                    <img src={require("./../../../images/product-details/similar3.jpg")} alt="" />
-                                    <img src={require("./../../../images/product-details/similar1.jpg")} alt="" />
+                                    <img src={require("./../../../asset/images/product-details/similar1.jpg")} alt="" />
+                                    <img src={require("./../../../asset/images/product-details/similar2.jpg")} alt="" />
+                                    <img src={require("./../../../asset/images/product-details/similar3.jpg")} alt="" />
+                                    
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={require("./../../../images/product-details/similar2.jpg")} alt="" />
-                                    <img src={require("./../../../images/product-details/similar3.jpg")} alt="" />
-                                    <img src={require("./../../../images/product-details/similar1.jpg")} alt="" />
-                                    <img src={require("./../../../images/product-details/similar2.jpg")} alt="" />
+                                    <img src={require("./../../../asset/images/product-details/similar2.jpg")} alt="" />
+                                    <img src={require("./../../../asset/images/product-details/similar3.jpg")} alt="" />
+                                    <img src={require("./../../../asset/images/product-details/similar1.jpg")} alt="" />
+                                    
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={require("./../../../images/product-details/similar3.jpg")} alt="" />
-                                    <img src={require("./../../../images/product-details/similar2.jpg")} alt="" />
-                                    <img src={require("./../../../images/product-details/similar1.jpg")} alt="" />
-                                    <img src={require("./../../../images/product-details/similar3.jpg")} alt="" />
+                                    <img src={require("./../../../asset/images/product-details/similar3.jpg")} alt="" />
+                                    <img src={require("./../../../asset/images/product-details/similar2.jpg")} alt="" />
+                                    <img src={require("./../../../asset/images/product-details/similar1.jpg")} alt="" />
+                                    
                                 </Carousel.Item>
                             </Carousel>
                         </div>
                     </div>
                     <div className="col-sm-7">
                         <div className={Style.productInformation} >
-                            <img src={require('./../../../images/product-details/new.jpg')} className={Style.newArrives} alt="" />
+                            <img src={require('./../../../asset/images/product-details/new.jpg')} className={Style.newArrives} alt="" />
                             <h2>Anne Klein Sleeveless Colorblock Scuba</h2>
 								<p>Web ID: 1089772</p>
-								<img src={require("./../../../images/product-details/rating.png")} alt="" />
+								<img src={require("./../../../asset/images/product-details/rating.png")} alt="" />
 								<span>
 									<span>US $59</span>
 									<label>Quantity:</label>
@@ -59,7 +59,7 @@ import Category2 from "../Category2";
 								<p><b>Availability:</b> In Stock</p>
 								<p><b>Condition:</b> New</p>
 								<p><b>Brand:</b> E-SHOPPER</p>
-								<a href=""><img src={require("./../../../images/product-details/share.png")} class="share img-responsive"  alt="" /></a>
+								<a href=""><img src={require("./../../../asset/images/product-details/share.png")} class="share img-responsive"  alt="" /></a>
                         </div>
                     </div>
                     <Category2 />

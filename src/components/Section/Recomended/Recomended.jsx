@@ -9,16 +9,16 @@ function Recomended() {
               <Carousel>
                 <Carousel.Item>
                 <div className="row">
-                <RecomdedCard image={require('./../../../images/home/recommend1.jpg')} price={50} />
-                <RecomdedCard image={require('./../../../images/home/recommend1.jpg')} price={50} />
-                <RecomdedCard image={require('./../../../images/home/recommend1.jpg')} price={50} />
+                <RecomdedCard image={require('./../../../asset/images/home/recommend1.jpg')} price={50} />
+                <RecomdedCard image={require('./../../../asset/images/home/recommend1.jpg')} price={50} />
+                <RecomdedCard image={require('./../../../asset/images/home/recommend1.jpg')} price={50} />
                 </div>
                 </Carousel.Item>
                 <Carousel.Item>
                 <div className="row">
-                <RecomdedCard image={require('./../../../images/home/recommend1.jpg')} price={50} />
-                <RecomdedCard image={require('./../../../images/home/recommend1.jpg')} price={50} />
-                <RecomdedCard image={require('./../../../images/home/recommend1.jpg')} price={50} />
+                <RecomdedCard image={require('./../../../asset/images/home/recommend1.jpg')} price={50} />
+                <RecomdedCard image={require('./../../../asset/images/home/recommend1.jpg')} price={50} />
+                <RecomdedCard image={require('./../../../asset/images/home/recommend1.jpg')} price={50} />
                 </div>
                 </Carousel.Item>
               </Carousel>

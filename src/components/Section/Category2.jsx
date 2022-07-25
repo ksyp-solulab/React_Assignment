@@ -41,22 +41,22 @@ function Category2() {
         {data === "D" ? (
           <div className="row">
             <CategoryProduct
-              image={require("../../images/home/gallery1.jpg")}
+              image={require("../../asset/images/home/gallery1.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
             <CategoryProduct
-              image={require("../../images/home/gallery2.jpg")}
+              image={require("../../asset/images/home/gallery2.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
             <CategoryProduct
-              image={require("../../images/home/gallery3.jpg")}
+              image={require("../../asset/images/home/gallery3.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
             <CategoryProduct
-              image={require("../../images/home/gallery4.jpg")}
+              image={require("../../asset/images/home/gallery4.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
@@ -64,22 +64,22 @@ function Category2() {
         ) : data === "C" ? (
           <div className="row">
             <CategoryProduct
-              image={require("../../images/home/gallery4.jpg")}
+              image={require("../../asset/images/home/gallery4.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
             <CategoryProduct
-              image={require("../../images/home/gallery3.jpg")}
+              image={require("../../asset/images/home/gallery3.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
             <CategoryProduct
-              image={require("../../images/home/gallery1.jpg")}
+              image={require("../../asset/images/home/gallery1.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
             <CategoryProduct
-              image={require("../../images/home/gallery4.jpg")}
+              image={require("../../asset/images/home/gallery4.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
@@ -87,22 +87,22 @@ function Category2() {
         ) : data === "T" ? (
           <div className="row">
             <CategoryProduct
-              image={require("../../images/home/gallery3.jpg")}
+              image={require("../../asset/images/home/gallery3.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
             <CategoryProduct
-              image={require("../../images/home/gallery4.jpg")}
+              image={require("../../asset/images/home/gallery4.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
             <CategoryProduct
-              image={require("../../images/home/gallery1.jpg")}
+              image={require("../../asset/images/home/gallery1.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
             <CategoryProduct
-              image={require("../../images/home/gallery2.jpg")}
+              image={require("../../asset/images/home/gallery2.jpg")}
               price="$56"
               description="Easy Polo Black Edition"
             />
@@ -144,7 +144,7 @@ function Category2() {
               </span>
               <textarea name=""></textarea>
               <b>Rating: </b>{" "}
-              <img src={require('./../../images/product-details/rating.png')} alt="" />
+              <img src={require('./../../asset/images/product-details/rating.png')} alt="" />
               <button type="button" className="float-end">
                 Submit
               </button>
