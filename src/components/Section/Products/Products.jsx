@@ -9,7 +9,7 @@ function Products() {
     <React.Fragment>
       <section className={Style.advertise}>
         <div className="container">
-          <img src={require("../../../images/shop/advertisement.jpg")} alt="" />
+          <img src={require("../../../asset/images/shop/advertisement.jpg")} alt="" />
         </div>
       </section>
       <section>
@@ -22,73 +22,73 @@ function Products() {
               <Title item="Features" name="features" />
               <div className="row">
               <ProductCard
-                  image={require("../../../images/shop/product12.jpg")}
+                  image={require("../../../asset/images/shop/product12.jpg")}
                   price={15}
                   id="12"
                   description="Easy Polo Black Edition"
                 />
                 <ProductCard
-                  image={require("../../../images/shop/product11.jpg")}
+                  image={require("../../../asset/images/shop/product11.jpg")}
                   price={25}
                   id="11"
                   description="Easy Polo Black Edition"
                 />
                 <ProductCard
-                  image={require("../../../images/shop/product10.jpg")}
+                  image={require("../../../asset/images/shop/product10.jpg")}
                   price={10}
                   id="10"
                   description="Easy Polo Black Edition"
                 />
                 <ProductCard
-                  image={require("../../../images/shop/product9.jpg")}
+                  image={require("../../../asset/images/shop/product9.jpg")}
                   price={40}
                   id="9"
                   description="Easy Polo Black Edition"
                 />
                 <ProductCard
-                  image={require("../../../images/shop/product8.jpg")}
+                  image={require("../../../asset/images/shop/product8.jpg")}
                   price={5}
                   id="8"
                   description="Easy Polo Black Edition"
                 />
                 <ProductCard
-                  image={require("../../../images/shop/product7.jpg")}
+                  image={require("../../../asset/images/shop/product7.jpg")}
                   price={46}
                   id="7"
                   description="Easy Polo Black Edition"
                 />
                 <ProductCard
-                  image={require("../../../images/home/product1.jpg")}
+                  image={require("../../../asset/images/home/product1.jpg")}
                   price={50}
                   id="1"
                   description="Easy Polo Black Edition"
                 />
                 <ProductCard
-                  image={require("../../../images/home/product2.jpg")}
+                  image={require("../../../asset/images/home/product2.jpg")}
                   price={60}
                   id="2"
                   description="Easy Polo Black Edition"
                 />
                 <ProductCard
-                  image={require("../../../images/home/product3.jpg")}
+                  image={require("../../../asset/images/home/product3.jpg")}
                   price={65}
                   id="3"
                   description="Easy Polo Black Edition"
                 />
                 <ProductCard
-                  image={require("../../../images/home/product4.jpg")}
+                  image={require("../../../asset/images/home/product4.jpg")}
                   price={95}
                   id="4"
                   description="Easy Polo Black Edition"
                 />
                 <ProductCard
-                  image={require("../../../images/home/product5.jpg")}
+                  image={require("../../../asset/images/home/product5.jpg")}
                   price={20}
                   id="5"
                   description="Easy Polo Black Edition"
                 />
                 <ProductCard
-                  image={require("../../../images/home/product6.jpg")}
+                  image={require("../../../asset/images/home/product6.jpg")}
                   price={5}
                   id="6"
                   description="Easy Polo Black Edition"

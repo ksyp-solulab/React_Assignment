@@ -134,7 +134,7 @@ function LeftSlider() {
 							</div>
 						</div>
       <div className={Style.shipping}>
-          <img src={require("./../../images/home/shipping.jpg")} alt="" />
+          <img src={require("./../../asset/images/home/shipping.jpg")} alt="" />
       </div>
     </div>
   );

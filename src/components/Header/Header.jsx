@@ -85,7 +85,7 @@ function Header() {
             <div className="col-md-4">
               <div className="logo float-start">
                 <Link to="/">
-                  <img src={require("./../../images/home/logo.png")} alt="" />
+                  <img src={require("./../../asset/images/home/logo.png")} alt="" />
                 </Link>
               </div>
               <div className="float-end">
