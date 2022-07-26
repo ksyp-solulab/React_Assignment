@@ -18,8 +18,8 @@ function SliderCars(props) {
         </button>
       </div>
       <div className="col-sm-6">
-        <img src={props.image} className={Style.girl}/>
-        <img src={props.image2} className={Style.pricing} />
+        <img src={props.image} className={Style.girl + " "+ "img-fluid"}/>
+        <img src={props.image2} className={Style.pricing + " "+ "img-fluid"} />
       </div>
       </div>
     </div>
