@@ -50,3 +50,19 @@
     background-color: #FE980F;
     border: none;
 }
+
+@media only screen and (max-width: 650px){
+    .girl{
+        position: relative
+    }
+    .pricing{
+    
+    position: absolute;
+    right: 33%;
+    top: 80%;
+    height: 95px !important;
+    }
+    .item{
+        padding-left: 0px;
+    }
+}
